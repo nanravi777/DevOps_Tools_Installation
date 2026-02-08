@@ -47,10 +47,10 @@ yum install wget -y
 # apt install wget -y
 
 cd /opt
-sudo  wget https://download.java.net/openjdk/jdk17.0.0.1/ri/openjdk-17.0.0.1+2_linux-x64_bin.tar.gz
-sudo tar -xvzf openjdk-17.0.0.1+2_linux-x64_bin.tar.gz
-sudo rm openjdk-17.0.0.1+2_linux-x64_bin.tar.gz
-sudo mv jdk-17.0.0.1  java-17
+sudo  wget https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz
+sudo tar -xvzf openjdk-11.0.2_linux-x64_bin.tar.gz
+sudo rm openjdk-11.0.2_linux-x64_bin.tar.gz
+sudo mv  mv jdk-11.0.2 java-11
 sudo ln -s /opt/java-17/bin/java /usr/bin/java
 
 # User Level (Exit as a Root User and Run as Regular/Normal User (Only It will work for current User)
